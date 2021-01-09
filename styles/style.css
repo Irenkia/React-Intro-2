@@ -1,0 +1,145 @@
+body {
+    background: #CFFBF5;
+    color: #0E025E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #615ACD;
+    text-shadow: 3px 3px 1px #1C0A93;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 20px 0;
+    color: #615ACD;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 20px 0;
+    color: #615ACD;
+}
+
+p {
+    color:#0E025E;
+    display: inline-block
+}
+
+#wrapper {
+    /*background: #FFFFFF; */
+    width: 95%; /*900px;*/
+    outline: 1px solid #280353;
+    padding: 10px;
+    margin: 0 auto;/*60px auto;*/
+    /*height: 1024px; */
+}
+
+#header {
+    background:#7AFAF8;
+    height: 200px;    
+    width: 100%; /*900px;*/
+    /* Включаем режим Flexbox. */
+	display: flex; 
+	
+	/* Распределяем элементы внутри шапки */
+	justify-content: space-between;
+
+	/* Выравниваем элементы вертикально по центру. */
+    align-items: center;
+}
+
+#navigation {
+    /*background: #a2a2a2;*/
+    width: 100%; /*900px;*/
+    height: 400px; 
+    display: flex; 
+	
+	/* Распределяем элементы внутри описания */
+	justify-content: space-between;
+
+	/* Выравниваем элементы вертикально по центру. */
+    align-items: center;       
+}
+
+#content {
+    /*background: #d2d0d2;*/
+    width: 90%; /*900px;*/
+    height: 100%; /*624px;*/
+}
+
+#menu {
+    background: #333333;
+    float: right;
+    width: 10%; /*200px;*/
+    height: 100%; /*624px;*/
+}
+
+#footer {
+    background: #7AFAF8; /*#017D7B;*/
+    height: 180px;
+    width: 100%; /*900px;*/
+    /*max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    /*padding: 0 15px;*/
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #f6f5fa;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.app {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid#1C0A93;
+    border-radius: 3px;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 0 #1C0A93;
+}
+
+.card.marked {
+    border: 2px solid #1C0A93;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.card img {
+    width: 100%;
+}
+
+#bg{
+    width: 100%;
+    height: 30%;
+    background-image: url(images/react-3.png);
+}
+
