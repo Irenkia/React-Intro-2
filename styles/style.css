@@ -44,7 +44,7 @@ p {
 
 #header {
     background:#7AFAF8;
-    height: 200px;    
+    height: 220px;    
     width: 100%; /*900px;*/
     /* Включаем режим Flexbox. */
 	display: flex; 
@@ -71,6 +71,7 @@ p {
 
 #menu {
     /*background: #333333;*/
+    background-image: url(../images/6.jpg);
     float: left; /*right;*/
     width: 10%; /*200px;*/
     height: 100%; /*624px;*/
@@ -78,7 +79,8 @@ p {
 
 #content {
     /*background: #d2d0d2;*/
-    width: 90%; /*900px;*/
+    background-image: url(../images/6.jpg);
+    width: 100%; /*900px;*/
     height: 100%; /*624px;*/
 }
 
