@@ -70,6 +70,7 @@ p {
 }
 
 #menu {
+	line-height: 1.5;
     /*background: #333333;*/
     background-image: url(../images/6.jpg);
     float: left; /*right;*/
